@@ -1,0 +1,5 @@
+﻿wysylanie logow co okreslony czas
+synchronizacja z serwerem
+zwalnianie pliku z logami specjalnie do wysłania
+wysylanie na osobnym wątku żeby moiżn a bylo dalej logi zapisywać
+oddzielna klasa do kontroli plikó log i szytfrowania
