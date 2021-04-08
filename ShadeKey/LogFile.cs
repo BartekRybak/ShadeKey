@@ -13,7 +13,6 @@ namespace ShadeKey
         private string logFileName = string.Empty;
         private int buffSize = 0;
         private List<string> buff = new List<string>();
-        public bool FileIsBussy = false;
 
         public LogFile(string fileName,int buffSize)
         {

