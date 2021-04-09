@@ -20,6 +20,11 @@ namespace ShadeKey
             logFileName = fileName;
         }
 
+        public string ReadAll()
+        {
+            return File.ReadAllText(logFileName);
+        }
+
         public void AppendData(string data)
         {
             if(buff.Count < buffSize)

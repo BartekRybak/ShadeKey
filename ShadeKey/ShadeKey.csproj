@@ -47,6 +47,7 @@
     <Compile Include="EmailSender.cs" />
     <Compile Include="Keyboard.cs" />
     <Compile Include="LogFile.cs" />
+    <Compile Include="Ninja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
